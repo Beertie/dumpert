@@ -1,0 +1,26 @@
+{
+  "name": "Dumpert",
+  "description": "Dumpert tracker",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "curl/curl": "^1.6",
+    "fabpot/goutte": "^3.2"
+  },
+  "require-dev": {
+    "psy/psysh": "@stable",
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dumpert\\": "src/",
+      "Dumpert\\Test\\": "test"
+    }
+  }
+}
